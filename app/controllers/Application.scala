@@ -19,7 +19,7 @@ object Application extends Controller {
 //    } finally {
 //      conn.close()
 //    }
-    Ok(views.html.index("Your new application is ready." + "outString"))
+    Ok(views.html.index("Your new application is ready." + " DOUBLE outString"))
   }
 
 }
